@@ -17,7 +17,7 @@ var animal = $(this).attr("data-name");
 console.log(this);
 
 //construct the Jquery
-var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key="+ APIKey + "&limit=10";
+var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key="+ APIKey + "&limit=10";
 	
 
 
