@@ -41,13 +41,29 @@ $.ajax({
 		
 		
 		var imgURL = response.data[i].images.downsized_large.url;
+		
+//		var still = response.data[i].images.fixed_height_still.url;
+	
+		
 		console.log(imgURL)
 		var image = $("<img>");
+		image.addClass("gif");
 		var imagepic = image.attr("src", imgURL);
 		imagepic.text(imgURL)
 		animalDiv.append(image);
 		$("#animal").prepend(animalDiv);
 	}
+	
+//	$(".gif").on("click", function() {
+//	
+//		var state = $(this).attr("data-state");
+//		var still = response.data[i].images.downsized_large.url;
+//		var moving = response.data[i].images.downsized_large.url;
+//		
+//		if (state === )
+//		
+//	});
+	
 });
 
 
@@ -81,3 +97,9 @@ $("#add-animal").on("click", function(event) {
 
 $(document).on("click", ".animals", displayAnimal);
 renderButton();
+
+
+
+
+
+
