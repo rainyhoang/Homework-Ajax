@@ -1,0 +1,17 @@
+h1
+{
+	background-color: aqua;
+	color: pink;
+}
+
+body
+
+{
+	background-color: beige;
+}
+
+$(".animals")
+{
+	border-radius: 25px;
+	color: blueviolet;
+}

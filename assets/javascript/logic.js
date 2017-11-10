@@ -98,8 +98,44 @@ $("#add-animal").on("click", function(event) {
 $(document).on("click", ".animals", displayAnimal);
 renderButton();
 
+//
+//var still = response.data[i].images.fixed_height_still.url
+//var move = response.data[i].images.downsized_large.url;
+//
+//
+////   $(".gif").on("click", function() {
+////	   
+//if(state==="still"){
+//        $(this).attr("src", still);
+//}
+//  else {
+//        $(this).attr("src", move);
+//}
+//    });  
 
 
+
+
+
+
+
+//
+//		
+//	var still = response.data[i].images.fixed_height_still.url
+//	var move = response.data[i].images.downsized_large.url;
+//	
+//      var state = $(this).attr("");
+//      
+//	
+//      if (state === "still") {
+//        $(this).attr("src", $(this).attr("data-animate"));
+//        $(this).attr("data-state", "animate");
+//      } else {
+//        $(this).attr("src", $(this).attr("data-still"));
+//        $(this).attr("data-state", "still");
+//      }
+//    });
+//
 
 
 
